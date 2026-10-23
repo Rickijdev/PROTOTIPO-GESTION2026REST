@@ -1,0 +1,29 @@
+MENude-PRUEBA - LISTO PARA GITHUB PAGES
+
+1. Descomprime el ZIP.
+2. Entra a la carpeta MenuDe-Prueba-react.
+3. Sube su CONTENIDO a la raíz de tu repositorio en GitHub.
+4. En GitHub abre Settings > Pages.
+5. Source: Deploy from a branch.
+6. Rama: main. Carpeta: /docs. Pulsa Save.
+7. Espera la publicación y abre Visit site.
+
+La carpeta docs ya está compilada. No necesitas instalar Node para publicarla.
+NO subas solo el ZIP. NO abras index.html con doble clic.
+
+Para editar el código localmente:
+- Abre MenuDe-Prueba-react en Visual Studio Code.
+- Terminal > New Terminal.
+- Ejecuta: npm ci
+- Ejecuta: npm run dev
+- Abre la dirección que indique la terminal.
+
+Paleta recomendada: verde petróleo + terracota.
+Paleta alternativa: naranja de Lezato (Configuración y respaldo).
+
+Los datos se guardan en el navegador. Exporta respaldos JSON desde Configuración.
+No hay servidor, cuentas autenticadas ni sincronización entre equipos.
+Al comenzar aparecen datos de demostración identificados por un aviso.
+Para iniciar tu negocio: Configuración > Comenzar con mis datos.
+
+Lee README.md para las instrucciones completas y PALETA.md para los colores.

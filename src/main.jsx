@@ -1,10 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import {createRoot} from 'react-dom/client';
+import '@fontsource/museomoderno/latin-500.css';
+import '@fontsource/museomoderno/latin-600.css';
+import '@fontsource/museomoderno/latin-700.css';
+import '@fontsource/open-sans/latin-400.css';
+import '@fontsource/open-sans/latin-500.css';
+import '@fontsource/open-sans/latin-600.css';
+import '@fontsource/open-sans/latin-700.css';
+import App from './App';
+import {Provider} from './store';
 import './styles.css';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+createRoot(document.getElementById('root')).render(<React.StrictMode><Provider><App/></Provider></React.StrictMode>);
